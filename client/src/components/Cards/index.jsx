@@ -4,7 +4,7 @@ import "./index.css"
 import CardFilm from '../CardProps';
 function CardForFilm() {
     const [data, setData] = useState([]);
-            const baseUrl = "http://localhost:5000/"
+            const baseUrl = "http://localhost:5000/api/books"
     
             const datalar = async () => {
                 try {

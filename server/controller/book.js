@@ -22,7 +22,7 @@ export const getData=async (req,res)=>{
     export const createData=async (req,res)=>{
             try {
             const postData=new Books(req.body)
-            await data.save()
+            await postData.save()
                 res.send(postData)
             } catch (error) {
                 res.status(500)

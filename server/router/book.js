@@ -11,7 +11,7 @@ import {
 const router = express.Router();
 
 //CREATE
-router.post("/books/:id",  createData);
+router.post("/", createData);
 //UPDATE
 router.put("/:id",updateData );
 

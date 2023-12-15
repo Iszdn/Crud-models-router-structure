@@ -10,4 +10,4 @@ const BooksSchema=new Schema({
 },{timestamps:true})
 
 
-export default mongoose.model("Room", BooksSchema);
+export default mongoose.model("book11", BooksSchema);
